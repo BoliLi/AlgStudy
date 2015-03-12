@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1386764007 source:e:\mydocs\cb_projects\dijkstrashortpath\main.c
+	<stdio.h>
+	<stdlib.h>
+

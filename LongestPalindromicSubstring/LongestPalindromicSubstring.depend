@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1415426469 source:d:\lbl\code\cb_prj\longestpalindromicsubstring\main.cpp
+	<iostream>
+	<string>
+	<string.h>
+

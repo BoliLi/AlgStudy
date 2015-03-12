@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1418133144 source:d:\lbl\code\cb_prj\dividetwointegers\main.cpp
+	<iostream>
+	<algorithm>
+

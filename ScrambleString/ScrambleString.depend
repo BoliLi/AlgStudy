@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1423813830 source:d:\lbl\code\cb_prj\scramblestring\main.cpp
+	<iostream>
+	<algorithm>
+	<string>
+

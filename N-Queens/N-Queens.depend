@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1419337910 source:d:\lbl\code\cb_prj\n-queens\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+	<algorithm>
+	<string.h>
+

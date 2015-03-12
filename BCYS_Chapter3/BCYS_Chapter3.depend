@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1388229147 source:e:\mydocs\cb_projects\bcys_chapter3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"../LBLsContainer/LBLsContainer.h"
+
+1387271363 e:\mydocs\cb_projects\lblscontainer\lblscontainer.h
+

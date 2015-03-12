@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1418729848 source:d:\lbl\code\cb_prj\combinationsumii\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdio.h>
+

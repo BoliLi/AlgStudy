@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1423797499 source:d:\lbl\code\cb_prj\maximalrectangle\main.cpp
+	<iostream>
+	<vector>
+	<stack>
+	<algorithm>
+

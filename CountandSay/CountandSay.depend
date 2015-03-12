@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1418633472 source:d:\lbl\code\cb_prj\countandsay\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

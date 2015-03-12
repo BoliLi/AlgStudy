@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1383748864 source:e:\mydocs\cb_projects\1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1393696042 source:d:\lbl\code\cb_prj\1\main.c
+	<stdio.h>
+	<stdlib.h>
+

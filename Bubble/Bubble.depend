@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1383631625 source:e:\mydocs\cb_projects\bubble\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1417513946 source:d:\lbl\code\cb_prj\lettercombinationsofaphonenumber\main.cpp
+	<stdio.h>
+	<iostream>
+	<vector>
+	<algorithm>
+

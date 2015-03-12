@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1386780611 source:e:\mydocs\cb_projects\graphkruskal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../LBLsContainer/LBLsContainer.h"
+
+1387271363 e:\mydocs\cb_projects\lblscontainer\lblscontainer.h
+

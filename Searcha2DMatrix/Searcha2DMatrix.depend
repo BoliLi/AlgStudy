@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1423208775 source:d:\lbl\code\cb_prj\searcha2dmatrix\main.cpp
+	<iostream>
+	<vector>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1419407745 source:d:\lbl\code\cb_prj\maximumsubarray\main.cpp
+	<iostream>
+	<algorithm>
+

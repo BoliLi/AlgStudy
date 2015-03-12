@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1417856189 source:d:\lbl\code\cb_prj\reversenodesink-group\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+

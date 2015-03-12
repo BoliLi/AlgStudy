@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1419998385 source:d:\lbl\code\cb_prj\mergeintervals\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

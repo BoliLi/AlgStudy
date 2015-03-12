@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1418351381 source:d:\lbl\code\cb_prj\longestvalidparentheses\main.cpp
+	<iostream>
+	<stack>
+

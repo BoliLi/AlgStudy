@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1417673287 source:d:\lbl\code\cb_prj\removenthnodefromendoflist\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+

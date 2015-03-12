@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1422930045 source:d:\lbl\code\cb_prj\simplifypath\main.cpp
+	<iostream>
+	<stack>
+

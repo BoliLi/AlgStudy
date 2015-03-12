@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1421913286 source:d:\lbl\code\cb_prj\plusone\main.cpp
+	<iostream>
+	<vector>
+

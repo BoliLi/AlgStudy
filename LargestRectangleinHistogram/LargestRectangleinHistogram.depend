@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1423731134 source:d:\lbl\code\cb_prj\largestrectangleinhistogram\main.cpp
+	<iostream>
+	<limits>
+	<algorithm>
+	<vector>
+	<stack>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1388070997 source:e:\mydocs\cb_projects\heapsort\main.c
+	<stdio.h>
+	<stdlib.h>
+

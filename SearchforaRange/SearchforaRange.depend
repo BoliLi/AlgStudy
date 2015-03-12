@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1418432150 source:d:\lbl\code\cb_prj\searchforarange\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+

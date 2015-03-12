@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1417683595 source:d:\lbl\code\cb_prj\validparentheses\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	<stack>
+

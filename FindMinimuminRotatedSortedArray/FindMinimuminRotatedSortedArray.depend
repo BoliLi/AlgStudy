@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1415323290 source:d:\lbl\code\cb_prj\findminimuminrotatedsortedarray\main.cpp
+	<iostream>
+	<vector>
+
