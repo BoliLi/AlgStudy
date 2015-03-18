@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 /*Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
 For example,
@@ -15,7 +16,7 @@ If n = 4 and k = 2, a solution is:
 ]*/
 using namespace std;
 
-class Solution {
+class Solution { // Wrong!!
     void dfs(vector<vector<int> > &ret, vector<int> &mid, int n, int curP, int curK) {
         if(curK == 1) {
             for(int i = curP + 1; i < n; i++) {
@@ -48,10 +49,50 @@ public:
     }
 };
 
+class Solution1 {
+public:
+    vector<vector<int> > combine(int n, int k) {
+        vector<vector<int> > result;
+        vector<int> path;
+        dfs(n, k, 1, 0, path, result);
+        return result;
+    }
+private:
+    // start，开始的数, cur，已经选择的数目
+    static void dfs(int n, int k, int start, int cur,
+        vector<int> &path, vector<vector<int> > &result) {
+        if (cur == k) {
+            for(int j = 0; j < path.size(); j++)
+                cout << path[j] << " ";
+            cout << endl;
+            result.push_back(path);
+        }
+        for (int i = start; i <= n; ++i) {
+            path.push_back(i);
+            dfs(n, k, i + 1, cur + 1, path, result);
+            path.pop_back();
+        }
+    }
+};
+
+bool cmp(int a, int b) {
+    return a < b;
+}
+
 int main()
 {
-    Solution a;
-    a.combine(4, 3);
+    Solution1 a;
+    vector<int> vec(5, 0);
+    vec[0] = 4;
+    vec[1] = 5;
+    vec[2] = 2;
+    vec[3] = 7;
+    vec[4] = 1;
+    sort(vec.begin(), vec.end(), cmp);
+    for(int i = 0; i < vec.size(); i++)
+        cout << vec[i] << " ";
+    cout << endl;
+    a.combine(5, 3);
     cout << "Hello world!" << endl;
     return 0;
 }

@@ -5,9 +5,7 @@
 #include <stack>
 
 using namespace std;
-//可以维护一个递增的栈，每次比较栈顶与当前元素。如果当前元素小于栈顶元素，则入栈，
-//否则出栈并计算当前元素到出栈元素之间的面积，直至栈顶元素小于当前元素。结尾时入栈元素 0，
-//重复合并一次。
+//See http://blog.csdn.net/doc_sgl/article/details/11805519
 class Solution {
 public:
     int largestRectangleArea(vector<int> &height) {

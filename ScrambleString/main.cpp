@@ -75,9 +75,46 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    bool isScramble(string s1, string s2) {
+        int l1 = s1.length();
+        int l2 = s2.length();
+
+        if(l1 != l2)
+            return false;
+
+        bool step[l1+1][l1][l1]; // step[n][i][j] represents the substring in s1 start from i length is n
+                                //and the substring in s2 start from j length is n, are srcamble or not
+        fill_n(&step[0][0][0], (l1+1)*l1*l1, false);
+
+        for(int i = 0; i < l1; i++) {
+            for(int j = 0; j < l1; j++) {
+                step[1][i][j] = (s1[i] == s2[j]);
+            }
+        }
+
+        for(int n = 2; n <= l1; n++) {
+            for(int i = 0; i + n <= l1; i++) {
+                for(int j = 0; j + n <= l1; j++) {
+                    for(int k = 1; k < n; k++) {
+                        if((step[k][i][j] && step[n - k][i + k][j + k]) ||
+                           (step[k][i][j + n - k] && step[n - k][i + k][j])) {
+                            step[n][i][j] = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        return step[l1][0][0];
+    }
+};
+
 int main()
 {
     Solution1 a;
-    cout << a.isScramble("great", "rgtae") << endl;
+    Solution2 b;
+    cout << a.isScramble("great", "rtage") << endl;
     return 0;
 }

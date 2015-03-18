@@ -16,12 +16,12 @@ public:
         for(string str : strs) {
             string orgStr = str;
             sort(str.begin(), str.end());
-            cout << str << endl;
+            //cout << str << endl;
             wordMap[str].push_back(orgStr);
         }
 
         for(auto it = wordMap.begin(); it != wordMap.end(); it++) {
-            if(it->second.size() > 1) {
+            if(it->second.size() > 1) { //至少有两个字符串是回文字符串
                 for(string str : it->second) {
                     cout << str << endl;
                     ret.push_back(str);

@@ -8,7 +8,7 @@ a = "11"
 b = "1"
 Return "100".*/
 using namespace std;
-
+//细节实现，从后往前加
 class Solution {
 public:
     string addBinary(string a, string b) {

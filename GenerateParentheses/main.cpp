@@ -1,7 +1,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+/*Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
+For example, given n = 3, a solution set is:
+
+"((()))", "(()())", "(())()", "()(())", "()()()"*/
 using namespace std;
 int cnt = 0;
 class Solution {
@@ -15,7 +19,7 @@ class Solution {
 
         if(l < n)
             generateP(ret, str + '(', l + 1, m, n);
-        if(m < l)
+        if(m < l) // Make sure ')' always on the right side of '('
             generateP(ret, str + ')', l, m + 1, n);
     }
 public:

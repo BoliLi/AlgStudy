@@ -23,6 +23,7 @@ private:
     static void bucket_sort(int A[], int n) {
         for (int i = 0; i < n; i++) {
             while (A[i] != i + 1) {
+                //If A[i] is not in the range (0, n], then no swap
                 if (A[i] <= 0 || A[i] > n || A[i] == A[A[i] - 1])
                     break;
                 swap(A[i], A[A[i] - 1]);
@@ -38,8 +39,8 @@ private:
 int main()
 {
     Solution a;
-    int arr[] = {8, 7, 6, 5};
+    int arr[] = {3, -4, 1, 5, 0};
 
-    cout << a.firstMissingPositive(arr, 4) << endl;
+    cout << a.firstMissingPositive(arr, 5) << endl;
     return 0;
 }

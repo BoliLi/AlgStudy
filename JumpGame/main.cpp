@@ -28,9 +28,25 @@ private:
     }
 };
 
+/*DP, f[i] represents maximum remain steps to reach A[i]*/
+class Solution1 {
+public:
+    bool canJump(int A[], int n) {
+        int f[n];
+        f[0] = 0;
+        for(int i = 1; i < n; i++) {
+            f[i] = max(f[i-1], A[i-1]) - 1;
+            if(f[i] < 0)
+                return false;
+        }
+        cout << f[n-1] << endl;
+        return f[n-1] >= 0;
+    }
+};
+
 int main()
 {
-    Solution a;
+    Solution1 a;
     int arr[] = {3,2,1,1,4};
     cout << a.canJump(arr, 5) << endl;
     return 0;
